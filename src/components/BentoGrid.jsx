@@ -26,8 +26,12 @@ export default function BentoGrid({ data }) {
         </motion.div>
 
         {/* Targeta: FOTO o LOGO */}
-        <motion.div variants={itemVariants} className="bg-neutral-800 p-6 rounded-2xl border border-neutral-700 flex items-center justify-center text-6xl">
-          👨‍💻
+        <motion.div variants={itemVariants} className="bg-neutral-800 p-6 rounded-2xl border border-neutral-700 flex items-center justify-center overflow-hidden">
+          <img 
+            src="/logo_cview_icon_v2.png" 
+            alt="Logo Personal" 
+            className="w-full h-full object-contain" 
+          />
         </motion.div>
 
         {/* Targeta: CONTACTE (Botons grans per a mòbil) */}
